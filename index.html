@@ -1,14 +1,59 @@
 <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripcion" content="Perfil de usuario en HTML con biografía, contacto y formulario">
+    <meta name="palabras clave" content="HTML, perfil, usuario, práctica">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfil de usuario</title>
+</head>
 <body>
-<h1>Usuario</h1>
-<header>Facundo</header>
-<footer>
+
+<header>
+    <h1>Perfil de Usuario</h1>
+    <h2>Usuario</h2>
+    <h3>Facundo</h3>
+    <img src="https://th.bing.com/th/id/R.5b4247244f01284d9c49b33d3b9b8d17?rik=4tRt%2fC7lMIc1kw&pid=ImgRaw&r=0"  alt="Foto de perfil" width="250" height="200">
+
+</header>
+
+<main>
+    <article>
+        <h3>Biografía</h3>
+        <p>hola soy facundo</p>
+    </article>
+<section>
+    <h3>Contacto</h3>
+    <table border="1">
+        <caption>Detalles de contacto</caption>
+        <thead>
+        <tr>
+            <th>Telefono</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2615539665</td>
+            <td>facufacundo2005@gmail.com</td>
+        </tr>
+
+        </tbody>
+    </table>
+    <br>
+</section>
     <form>
         <input type="text" placeholder="ingrese su nombre">
-
+        <br>
         <input type="email" placeholder="ingrese su mail">
-<input type="submit">
-   </form>
+        <br>
+        <input type="textarea" placeholder="escribi lo que te pinte">
+        <br>
+        <input type="submit">
+    </form>
+
+</main>
+<footer>
+
 
 </footer>
 </body>
